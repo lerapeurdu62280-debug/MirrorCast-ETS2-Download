@@ -8,7 +8,7 @@
 
 <br>
 
-[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.4.1-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
+[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.4.2-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#%EF%B8%8F-configuration-requise)
 [![TruckersMP](https://img.shields.io/badge/TruckersMP_%2B_Solo-compatible-59C48A?style=for-the-badge)](#-fonctionnalités)
 [![Discord](https://img.shields.io/badge/Discord-rejoindre_l%E2%80%99atelier-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=12141B)](https://discord.gg/W5hd36CW6b)
@@ -128,7 +128,7 @@ vue cabine, sans rien qui la gêne.
 
 | Fichier | Contenu |
 |---|---|
-| **`MirrorCast-ETS2-v0.4.1.zip`** | Version portable : décompressez-la où vous voulez, il n'y a rien à installer. |
+| **`MirrorCast-ETS2-v0.4.2.zip`** | Version portable : décompressez-la où vous voulez, il n'y a rien à installer. |
 
 > **Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal pour un logiciel récent. Cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
 
@@ -194,7 +194,7 @@ Oui. Cliquez sur « TruckersMP » dans la fenêtre de MirrorCast : MirrorCast ou
 <details>
 <summary><b>Ça marche avec SimHub ?</b></summary>
 <br>
-Oui. SimHub n'accepte qu'une adresse IP et un port : chaque rétro a donc aussi son propre port, affiché sous son QR code dans la fenêtre de MirrorCast. Par exemple <code>192.168.1.20:8081</code> pour le rétro gauche et <code>192.168.1.20:8082</code> pour le droit.
+Oui. SimHub n'accepte qu'une adresse IP et un port : chaque rétro a donc aussi son propre port, affiché sous son QR code dans la fenêtre de MirrorCast. Par exemple <code>192.168.1.20:8081</code> pour le rétro gauche et <code>192.168.1.20:8082</code> pour le droit. Par ces adresses, l'image remplit toute la zone de SimHub, sans bandes noires.
 </details>
 
 <details>
