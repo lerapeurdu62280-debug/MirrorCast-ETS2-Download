@@ -156,6 +156,7 @@ vue cabine, sans rien qui la gêne.
 | Mire de test, fenêtre du PC avec QR codes (version 0.4.0) | ✅ Testés |
 | Mode tout-en-un (réglage et lancement automatiques d'ETS2) | ✅ Testé en conditions réelles |
 | Multijoueur TruckersMP (bouton de la fenêtre, jeu en ligne) | ✅ Testé en conditions réelles |
+| Compatibilité SimHub (adresse IP + port, plein cadre) | ✅ Testé en conditions réelles |
 
 <br>
 
