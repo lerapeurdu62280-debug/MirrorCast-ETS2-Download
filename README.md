@@ -101,13 +101,9 @@ vue cabine, sans rien qui la gêne.
 </td>
 </tr>
 <tr>
-<td width="50%" align="center">
+<td colspan="2" align="center">
 <img src="docs/screenshots/console.png" alt="Console PC de MirrorCast"><br>
-<b>La console du PC</b><br><sub>Images par seconde, adresses des tablettes, qualité réglable à chaud.</sub>
-</td>
-<td width="50%" align="center">
-<img src="docs/screenshots/mire.png" alt="Mire de test sur la tablette"><br>
-<b>La mire de test</b><br><sub>Pour vérifier les tablettes et le Wi‑Fi sans lancer le jeu.</sub>
+<b>La console du PC</b><br><sub>Elle s'ouvre toute seule : images par seconde de chaque rétro, adresses à taper sur les tablettes, qualité réglable à chaud.</sub>
 </td>
 </tr>
 </table>
