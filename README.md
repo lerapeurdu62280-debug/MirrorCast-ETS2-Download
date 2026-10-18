@@ -154,7 +154,7 @@ vue cabine, sans rien qui la gêne.
 | Rétros en jeu sur tablettes, remorque visible, ~24 i/s | ✅ Testé en conditions réelles |
 | Mire de test, fenêtre du PC avec QR codes (version 0.4.0) | ✅ Testés |
 | Mode tout-en-un (réglage et lancement automatiques d'ETS2) | ✅ Testé en conditions réelles |
-| Bouton TruckersMP avec le vrai launcher | 🆕 Nouveau, à confirmer |
+| Multijoueur TruckersMP (bouton de la fenêtre, jeu en ligne) | ✅ Testé en conditions réelles |
 
 <br>
 
