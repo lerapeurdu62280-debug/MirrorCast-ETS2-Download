@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🚛 MirrorCast ETS2
+<img src="docs/icone.png" alt="Icône MirrorCast" width="110">
+
+# MirrorCast ETS2
 
 ### Les rétroviseurs d'Euro Truck Simulator 2 sur vos tablettes.
 
@@ -8,9 +10,9 @@
 
 <br>
 
-[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.2.0-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
+[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.3.0-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#%EF%B8%8F-configuration-requise)
-[![Statut](https://img.shields.io/badge/statut-version_de_test-E5534B?style=for-the-badge)](#-où-en-est-le-projet-)
+[![TruckersMP](https://img.shields.io/badge/TruckersMP_%2B_Solo-compatible-59C48A?style=for-the-badge)](#-fonctionnalités)
 [![Discord](https://img.shields.io/badge/Discord-rejoindre_l%E2%80%99atelier-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=12141B)](https://discord.gg/W5hd36CW6b)
 
 <br>
@@ -50,6 +52,7 @@ vue cabine, sans rien qui la gêne.
 - **Vue arrière gauche et droite**, avec la **remorque visible**.
 - Image **inversée comme dans un miroir**.
 - Angles des rétros **réglables** (direction, zoom, position).
+- En **multijoueur TruckersMP** comme en **solo**.
 - Environ **24 images par seconde** en jeu, avec une latence d'environ **25 ms** sur la mire.
 
 </td>
@@ -69,7 +72,7 @@ vue cabine, sans rien qui la gêne.
 ### 🧩 Tout-en-un
 - **Un double-clic** sur `MirrorCast.exe` :
 - il **règle ETS2** (mode multi-écran, vues des rétros, fenêtre) ;
-- il **lance le jeu** via Steam et **place sa fenêtre** ;
+- vous choisissez **TruckersMP ou Solo** : il **lance le jeu** et **place sa fenêtre** ;
 - il ouvre une **console** avec les adresses à taper sur les tablettes.
 
 </td>
@@ -96,8 +99,8 @@ vue cabine, sans rien qui la gêne.
 <b>Le rétro sur le téléphone</b><br><sub>La remorque, comme dans le rétroviseur du jeu.</sub>
 </td>
 <td width="50%" align="center">
-<img src="docs/screenshots/retro-tablette.png" alt="Téléphone affichant la vue arrière en ville"><br>
-<b>En ville</b><br><sub>La vue arrière en continu, posée à côté de l'écran.</sub>
+<img src="docs/screenshots/tablette.png" alt="Tablette Samsung affichant la remorque, sous l'écran du jeu"><br>
+<b>Sur une tablette</b><br><sub>Une vieille tablette Samsung sous l'écran : la remorque en direct.</sub>
 </td>
 </tr>
 <tr>
@@ -107,6 +110,12 @@ vue cabine, sans rien qui la gêne.
 </td>
 </tr>
 </table>
+
+<br>
+
+<div align="center">
+<img src="docs/screenshots/affiche.png" alt="Affiche MirrorCast ETS2" width="560">
+</div>
 
 <br>
 
@@ -120,12 +129,12 @@ vue cabine, sans rien qui la gêne.
 
 | Fichier | Contenu |
 |---|---|
-| **`MirrorCast-ETS2-v0.2.0.zip`** | Version portable : décompressez-la où vous voulez, il n'y a rien à installer. |
+| **`MirrorCast-ETS2-v0.3.0.zip`** | Version portable : décompressez-la où vous voulez, il n'y a rien à installer. |
 
 > **Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal pour un logiciel récent. Cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
 
 ### 🖥️ Configuration requise
-- **Windows 10 ou 11**, 64 bits, et **Euro Truck Simulator 2** sur Steam.
+- **Windows 10 ou 11**, 64 bits, et **Euro Truck Simulator 2** sur Steam (avec ou sans **TruckersMP**).
 - Une carte graphique de jeu (testé avec une **RTX 3050**).
 - Une ou deux **tablettes ou téléphones** avec un navigateur, sur le **même réseau Wi‑Fi** que le PC (5 GHz conseillé).
 - Le pilote gratuit **[Virtual Display Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases)**, qui crée les deux écrans invisibles où le jeu dessine les rétros.
@@ -135,7 +144,7 @@ vue cabine, sans rien qui la gêne.
 ## 🚀 En trois gestes
 
 1. **Une seule fois :** installez Virtual Display Driver et créez **deux écrans de 400×720**, collés à gauche et à droite de votre écran dans *Paramètres → Affichage*. Le fichier `LISEZMOI.txt` vous guide.
-2. **Double-cliquez sur `MirrorCast.exe`.** Au premier lancement, autorisez-le dans le pare-feu Windows. ETS2 se lance tout seul.
+2. **Double-cliquez sur `MirrorCast.exe`**, puis choisissez **TruckersMP** ou **Solo** dans la console qui s'ouvre. Au premier lancement, autorisez-le dans le pare-feu Windows.
 3. **Sur chaque tablette**, ouvrez l'adresse affichée dans la console, par exemple `http://192.168.1.20:8080/mirror-left`. C'est prêt.
 
 <br>
@@ -146,7 +155,8 @@ vue cabine, sans rien qui la gêne.
 |---|---|
 | Rétros en jeu sur tablettes, remorque visible, ~24 i/s | ✅ Testé en conditions réelles |
 | Mire de test, console du PC | ✅ Testés |
-| Mode tout-en-un de la version 0.2.0 (réglage et lancement automatiques d'ETS2) | 🧪 En cours de test |
+| Mode tout-en-un (réglage et lancement automatiques d'ETS2) | ✅ Testé en conditions réelles |
+| Choix TruckersMP ou Solo dans la console (version 0.3.0) | 🆕 Nouveau |
 
 <br>
 
@@ -174,6 +184,12 @@ Quittez ETS2 et relancez-le : le réglage anti-gel appliqué par MirrorCast n'es
 <summary><b>La tablette ne se connecte pas.</b></summary>
 <br>
 Vérifiez que le PC et la tablette sont sur le même réseau, et que MirrorCast est autorisé dans le pare-feu Windows (réseau privé). Avec un VPN sur le PC, activez l'option de visibilité du réseau local. La mire de test permet de vérifier tout cela sans lancer le jeu.
+</details>
+
+<details>
+<summary><b>Ça marche sur TruckersMP ?</b></summary>
+<br>
+Oui. Choisissez « TruckersMP » dans la console : MirrorCast ouvre le launcher TruckersMP, vous cliquez sur « Launch », et le jeu est réglé et capturé de la même façon qu'en solo. MirrorCast n'est pas un mod : il ne touche pas au jeu, il capture seulement les vues des rétros affichées par Windows. Raccourci direct : <code>Lancer TruckersMP.bat</code>.
 </details>
 
 <details>
