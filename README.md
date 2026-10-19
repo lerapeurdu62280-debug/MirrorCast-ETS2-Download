@@ -8,7 +8,8 @@
 
 <br>
 
-[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.5.2-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
+[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.6.0-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
+[![Premium](https://img.shields.io/badge/✦_Premium-15_€_à_vie-F5A524?style=for-the-badge&labelColor=12141B)](#-gratuit-ou-premium-)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#%EF%B8%8F-configuration-requise)
 [![TruckersMP](https://img.shields.io/badge/TruckersMP_%2B_Solo-compatible-59C48A?style=for-the-badge)](#-fonctionnalités)
 [![Discord](https://img.shields.io/badge/Discord-rejoindre_l%E2%80%99atelier-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=12141B)](https://discord.gg/W5hd36CW6b)
@@ -21,7 +22,7 @@
 
 <br><br>
 
-[**Pourquoi**](#-pourquoi-mirrorcast-) · [**Fonctionnalités**](#-fonctionnalités) · [**En images**](#%EF%B8%8F-en-images) · [**Télécharger**](#%EF%B8%8F-télécharger) · [**Questions fréquentes**](#-questions-fréquentes)
+[**Pourquoi**](#-pourquoi-mirrorcast-) · [**Fonctionnalités**](#-fonctionnalités) · [**En images**](#%EF%B8%8F-en-images) · [**Gratuit ou Premium**](#-gratuit-ou-premium-) · [**Télécharger**](#%EF%B8%8F-télécharger) · [**Questions fréquentes**](#-questions-fréquentes)
 
 </div>
 
@@ -61,8 +62,8 @@ vue cabine, sans rien qui la gêne.
 - Fonctionne avec de **vieilles tablettes** (testé sur Android 7).
 - **Reconnexion automatique** en cas de coupure Wi‑Fi.
 - Plein écran, ajustement de l'image, inversion d'un toucher.
-- Compatible **SimHub** : chaque rétro a sa propre adresse IP + port.
-- 🆕 **Zoom et dézoom depuis le PC** : le curseur de chaque rétro part du milieu (vue normale), dézoome à gauche, zoome à droite ; le rétro se vise aussi vers le haut, le bas, la gauche ou la droite, en direct.
+- Compatible **SimHub** (✦ Premium) : chaque rétro a sa propre adresse IP + port.
+- 🆕 **Zoom et dézoom depuis le PC** (✦ Premium) : le curseur de chaque rétro part du milieu (vue normale), dézoome à gauche, zoome à droite ; le rétro se vise aussi vers le haut, le bas, la gauche ou la droite, en direct.
 
 </td>
 </tr>
@@ -119,6 +120,29 @@ vue cabine, sans rien qui la gêne.
 
 <br>
 
+## 💎 Gratuit ou Premium ?
+
+MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros sur tablettes, tout de suite. La version **Premium** ajoute le réglage en direct de chaque rétro et la compatibilité SimHub, **à vie** sur votre ordinateur, pour **15 €** en une seule fois : pas d'abonnement.
+
+| | Gratuit | ✦ Premium · 15 € à vie |
+|---|:---:|:---:|
+| Les deux rétros sur tablettes ou téléphones, en Wi‑Fi | ✅ | ✅ |
+| Réglage automatique d'ETS2, lancement Solo ou TruckersMP | ✅ | ✅ |
+| QR codes, mire de test, « Tout annuler » | ✅ | ✅ |
+| Zoom, dézoom et visée de chaque rétro en direct, depuis le PC | — | ✅ |
+| Compatibilité SimHub (une adresse IP + port par rétro) | — | ✅ |
+
+### Obtenir Premium · 15 €
+
+1. Dans MirrorCast, cliquez sur **Passer Premium** (en haut à droite), puis sur **Copier** à côté de votre **code machine**.
+2. Envoyez ce code à **S.O.S INFO LUDO** : ✉️ **s.o.sinfoludo@gmail.com** · 📞 **06 59 59 05 15** · 💬 **[Discord](https://discord.gg/W5hd36CW6b)**.
+3. Réglez **15 €** par **carte bancaire**, par **virement**, ou en **espèces** à l'atelier de Boulogne-sur-Mer.
+4. Vous recevez votre licence par e-mail : collez-la dans la fenêtre **Licence** (ou ouvrez le fichier `.lic`), cliquez sur **Activer Premium**, puis sur **Redémarrer MirrorCast**.
+
+> La licence est vérifiée **sur votre PC, sans connexion Internet**, et reste valable à vie sur cet ordinateur. Micro-entreprise : TVA non applicable, article 293 B du CGI.
+
+<br>
+
 ## ⬇️ Télécharger
 
 <div align="center">
@@ -129,7 +153,7 @@ vue cabine, sans rien qui la gêne.
 
 | Fichier | Contenu |
 |---|---|
-| **`MirrorCast-ETS2-v0.5.2.zip`** | Version portable : décompressez-la où vous voulez, il n'y a rien à installer. |
+| **`MirrorCast-ETS2-v0.6.0.zip`** | Version portable : décompressez-la où vous voulez, il n'y a rien à installer. |
 
 > **Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal pour un logiciel récent. Cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
 
@@ -161,6 +185,7 @@ vue cabine, sans rien qui la gêne.
 | 🆕 Zoom (version 0.5.0) | ✅ Testé en conditions réelles |
 | 🆕 Dézoom et visée sans zoomer (version 0.5.1) | ✅ Testé en conditions réelles |
 | 🆕 Dézoom deux fois plus large (version 0.5.2) | ✅ Testé en conditions réelles |
+| 🆕 Version gratuite et Premium (version 0.6.0) | ✅ Testées sur PC |
 
 <br>
 
@@ -199,7 +224,7 @@ Oui. Cliquez sur « TruckersMP » dans la fenêtre de MirrorCast : MirrorCast ou
 <details>
 <summary><b>Ça marche avec SimHub ?</b></summary>
 <br>
-Oui. SimHub n'accepte qu'une adresse IP et un port : chaque rétro a donc aussi son propre port, affiché sous son QR code dans la fenêtre de MirrorCast. Par exemple <code>192.168.1.20:8081</code> pour le rétro gauche et <code>192.168.1.20:8082</code> pour le droit. Par ces adresses, l'image remplit toute la zone de SimHub, sans bandes noires.
+Oui, avec la version Premium. SimHub n'accepte qu'une adresse IP et un port : chaque rétro a donc aussi son propre port, affiché sous son QR code dans la fenêtre de MirrorCast. Par exemple <code>192.168.1.20:8081</code> pour le rétro gauche et <code>192.168.1.20:8082</code> pour le droit. Par ces adresses, l'image remplit toute la zone de SimHub, sans bandes noires.
 </details>
 
 <details>
