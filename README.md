@@ -160,7 +160,7 @@ vue cabine, sans rien qui la gêne.
 | Compatibilité SimHub (adresse IP + port, plein cadre) | ✅ Testé en conditions réelles |
 | 🆕 Zoom (version 0.5.0) | ✅ Testé en conditions réelles |
 | 🆕 Dézoom et visée sans zoomer (version 0.5.1) | ✅ Testé en conditions réelles |
-| 🆕 Dézoom deux fois plus large (version 0.5.2) | 🧪 En cours de test |
+| 🆕 Dézoom deux fois plus large (version 0.5.2) | ✅ Testé en conditions réelles |
 
 <br>
 
