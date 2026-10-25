@@ -208,6 +208,7 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 | Version gratuite et Premium (version 0.6.0) | ✅ Testées sur PC |
 | 🆕 Caméra de recul et GPS intégré (versions 0.7.0 et 0.7.1) | 🔶 Testés sur PC avec la mire, essai en jeu à venir |
 | 🆕 Fin des gels sur tablettes et téléphones (version 0.7.0) | 🔶 Testé sur PC, essai sur iPhone et Samsung à venir |
+| 🧪 Caméra de recul dans le bas des écrans de rétros, sans écran en plus ([version 0.7.5, en test](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/tag/v0.7.5)) | 🧪 Version de test, essai en cours |
 
 <br>
 
