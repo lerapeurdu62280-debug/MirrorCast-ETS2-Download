@@ -4,11 +4,11 @@
 
 ### Les rétroviseurs d'Euro Truck Simulator 2 sur vos tablettes.
 
-*Posez une tablette de chaque côté de votre écran : elles affichent en direct ce que voient<br>les rétroviseurs de votre camion, remorque comprise, en Wi‑Fi et sans rien installer dessus.*
+*Posez une tablette de chaque côté de votre écran : elles affichent en direct ce que voient<br>les rétroviseurs de votre camion, remorque comprise, en Wi‑Fi et sans rien installer dessus.<br>Une troisième peut servir de **GPS**, qui laisse place à la **caméra de recul** dès que vous reculez.*
 
 <br>
 
-[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.6.0-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
+[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.7.1-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
 [![Premium](https://img.shields.io/badge/✦_Premium-15_€_à_vie-F5A524?style=for-the-badge&labelColor=12141B)](#-gratuit-ou-premium-)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#%EF%B8%8F-configuration-requise)
 [![TruckersMP](https://img.shields.io/badge/TruckersMP_%2B_Solo-compatible-59C48A?style=for-the-badge)](#-fonctionnalités)
@@ -64,6 +64,23 @@ vue cabine, sans rien qui la gêne.
 - Plein écran, ajustement de l'image, inversion d'un toucher.
 - Compatible **SimHub** (✦ Premium) : chaque rétro a sa propre adresse IP + port.
 - 🆕 **Zoom et dézoom depuis le PC** (✦ Premium) : le curseur de chaque rétro part du milieu (vue normale), dézoome à gauche, zoome à droite ; le rétro se vise aussi vers le haut, le bas, la gauche ou la droite, en direct.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🆕 Caméra de recul et GPS
+- Une **3e tablette** affiche le **GPS** ([TruckNav](https://github.com/Rares-Muntean/TruckNav-Sim)) pendant que vous roulez.
+- Dès que vous passez la **marche arrière**, elle bascule **instantanément** sur la **caméra de recul**, puis revient au GPS : l'itinéraire est conservé.
+- Une caméra **sans remorque** et une **avec remorque** : la bonne s'affiche toute seule.
+- Le GPS est **intégré à MirrorCast** : rien d'autre à installer ni à ouvrir.
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 Plus fluide
+- 🆕 Les tablettes et téléphones **ne gèlent plus** quand on monte les images par seconde : le PC n'envoie jamais plus d'images que l'appareil n'en affiche.
 
 </td>
 </tr>
@@ -127,6 +144,7 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 | | Gratuit | ✦ Premium · 15 € à vie |
 |---|:---:|:---:|
 | Les deux rétros sur tablettes ou téléphones, en Wi‑Fi | ✅ | ✅ |
+| 🆕 Caméra de recul et GPS intégré | ✅ | ✅ |
 | Réglage automatique d'ETS2, lancement Solo ou TruckersMP | ✅ | ✅ |
 | QR codes, mire de test, « Tout annuler » | ✅ | ✅ |
 | Zoom, dézoom et visée de chaque rétro en direct, depuis le PC | — | ✅ |
@@ -153,15 +171,15 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 
 | Fichier | Contenu |
 |---|---|
-| **`MirrorCast-ETS2-v0.6.0.zip`** | Version portable : décompressez-la où vous voulez, il n'y a rien à installer. |
+| **`MirrorCast-ETS2-v0.7.1.zip`** | Version portable, GPS inclus : décompressez-la où vous voulez, il n'y a rien à installer. |
 
 > **Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal pour un logiciel récent. Cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
 
 ### 🖥️ Configuration requise
 - **Windows 10 ou 11**, 64 bits, et **Euro Truck Simulator 2** sur Steam (avec ou sans **TruckersMP**).
 - Une carte graphique de jeu (testé avec une **RTX 3050**).
-- Une ou deux **tablettes ou téléphones** avec un navigateur, sur le **même réseau Wi‑Fi** que le PC (5 GHz conseillé).
-- Le pilote gratuit **[Virtual Display Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases)**, qui crée les deux écrans invisibles où le jeu dessine les rétros.
+- Deux ou trois **tablettes ou téléphones** avec un navigateur, sur le **même réseau Wi‑Fi** que le PC (5 GHz conseillé).
+- Le pilote gratuit **[Virtual Display Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases)**, qui crée les écrans invisibles où le jeu dessine les rétros (et la caméra de recul).
 
 <br>
 
@@ -170,6 +188,8 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 1. **Une seule fois :** installez Virtual Display Driver et créez **deux écrans de 400×720**, collés à gauche et à droite de votre écran dans *Paramètres → Affichage*. Le fichier `LISEZMOI.txt` vous guide.
 2. **Double-cliquez sur `MirrorCast.exe`**, puis cliquez sur **TruckersMP** ou **Solo** dans sa fenêtre. Au premier lancement, autorisez-le dans le pare-feu Windows.
 3. **Sur chaque tablette**, scannez le QR code du rétro (ou tapez l'adresse affichée dessous). C'est prêt.
+
+**Caméra de recul et GPS (facultatif) :** créez deux écrans de plus, de **400×360**, collés **sous** chaque écran de rétro, relancez MirrorCast jeu fermé, puis scannez le QR code **« Caméra de recul »** avec la 3e tablette. Au premier lancement, Windows peut demander d'autoriser « TruckNavTelemetry » dans le pare-feu : acceptez.
 
 <br>
 
@@ -185,7 +205,9 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 | 🆕 Zoom (version 0.5.0) | ✅ Testé en conditions réelles |
 | 🆕 Dézoom et visée sans zoomer (version 0.5.1) | ✅ Testé en conditions réelles |
 | 🆕 Dézoom deux fois plus large (version 0.5.2) | ✅ Testé en conditions réelles |
-| 🆕 Version gratuite et Premium (version 0.6.0) | ✅ Testées sur PC |
+| Version gratuite et Premium (version 0.6.0) | ✅ Testées sur PC |
+| 🆕 Caméra de recul et GPS intégré (versions 0.7.0 et 0.7.1) | 🔶 Testés sur PC avec la mire, essai en jeu à venir |
+| 🆕 Fin des gels sur tablettes et téléphones (version 0.7.0) | 🔶 Testé sur PC, essai sur iPhone et Samsung à venir |
 
 <br>
 
@@ -228,6 +250,18 @@ Oui, avec la version Premium. SimHub n'accepte qu'une adresse IP et un port : ch
 </details>
 
 <details>
+<summary><b>Comment marche la caméra de recul ?</b></summary>
+<br>
+ETS2 dessine deux vues de plus, vers l'arrière du camion : une pour reculer sans remorque, une pour reculer avec. MirrorCast lit le rapport engagé grâce au GPS intégré : en marche arrière, la 3e tablette passe du GPS à la bonne caméra, puis y revient. Les angles se règlent dans <code>mirrorcast.json</code>, comme ceux des rétros.
+</details>
+
+<details>
+<summary><b>Faut-il installer TruckNav ?</b></summary>
+<br>
+Non. Le GPS TruckNav est livré dans le dossier de MirrorCast, qui l'affiche et le démarre lui-même, sans fenêtre. Il s'arrête quand vous fermez MirrorCast.
+</details>
+
+<details>
 <summary><b>Ça marche avec American Truck Simulator ?</b></summary>
 <br>
 Pas encore : cette version ne gère qu'Euro Truck Simulator 2.
@@ -243,6 +277,6 @@ Pas encore : cette version ne gère qu'Euro Truck Simulator 2.
 
 **MirrorCast ETS2** — conçu et développé par **S.O.S INFO LUDO**
 
-<sub>Logiciel propriétaire, tous droits réservés.<br>Euro Truck Simulator 2 est une marque de SCS Software. Ce logiciel est indépendant : il n'est ni affilié à SCS Software, ni approuvé par SCS Software.</sub>
+<sub>Logiciel propriétaire, tous droits réservés.<br>GPS : <a href="https://github.com/Rares-Muntean/TruckNav-Sim">TruckNav</a> par Rares Muntean, logiciel libre sous licence GPL-3.0, livré non modifié dans le dossier <code>trucknav</code> avec sa licence.<br>Euro Truck Simulator 2 est une marque de SCS Software. Ce logiciel est indépendant : il n'est ni affilié à SCS Software, ni approuvé par SCS Software.</sub>
 
 </div>
