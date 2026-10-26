@@ -154,7 +154,7 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 
 1. Dans MirrorCast, cliquez sur **Passer Premium** (en haut à droite), puis sur **Copier** à côté de votre **code machine**.
 2. Envoyez ce code à **S.O.S INFO LUDO** : ✉️ **s.o.sinfoludo@gmail.com** · 📞 **06 59 59 05 15** · 💬 **[Discord](https://discord.gg/W5hd36CW6b)**.
-3. Réglez **15 €** par **carte bancaire**, par **virement**, ou en **espèces** à l'atelier de Boulogne-sur-Mer.
+3. Réglez **15 €** par **[PayPal](https://www.paypal.com/biz/profile/SOSinfoludo)** (saisissez 15 € et indiquez votre code machine dans le message), par **carte bancaire**, par **virement**, ou en **espèces** à l'atelier de Boulogne-sur-Mer.
 4. Vous recevez votre licence par e-mail : collez-la dans la fenêtre **Licence** (ou ouvrez le fichier `.lic`), cliquez sur **Activer Premium**, puis sur **Redémarrer MirrorCast**.
 
 > La licence est vérifiée **sur votre PC, sans connexion Internet**, et reste valable à vie sur cet ordinateur. Micro-entreprise : TVA non applicable, article 293 B du CGI.
@@ -189,7 +189,7 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 2. **Double-cliquez sur `MirrorCast.exe`**, puis cliquez sur **TruckersMP** ou **Solo** dans sa fenêtre. Au premier lancement, autorisez-le dans le pare-feu Windows.
 3. **Sur chaque tablette**, scannez le QR code du rétro (ou tapez l'adresse affichée dessous). C'est prêt.
 
-**Caméra de recul et GPS (facultatif) :** créez deux écrans de plus, de **400×360**, collés **sous** chaque écran de rétro, relancez MirrorCast jeu fermé, puis scannez le QR code **« Caméra de recul »** avec la 3e tablette. Au premier lancement, Windows peut demander d'autoriser « TruckNavTelemetry » dans le pare-feu : acceptez.
+**Caméra de recul et GPS (facultatif) :** passez l'écran de droite en **400×1080** (le rétro en haut, la caméra de recul en bas), relancez MirrorCast jeu fermé, puis scannez le QR code **« Caméra de recul »** avec la 3e tablette. Au premier lancement, Windows peut demander d'autoriser « TruckNavTelemetry » dans le pare-feu : acceptez.
 
 <br>
 
@@ -206,9 +206,9 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 | 🆕 Dézoom et visée sans zoomer (version 0.5.1) | ✅ Testé en conditions réelles |
 | 🆕 Dézoom deux fois plus large (version 0.5.2) | ✅ Testé en conditions réelles |
 | Version gratuite et Premium (version 0.6.0) | ✅ Testées sur PC |
-| 🆕 Caméra de recul et GPS intégré (versions 0.7.0 et 0.7.1) | 🔶 Testés sur PC avec la mire, essai en jeu à venir |
+| 🆕 Caméra de recul et GPS intégré (versions 0.7.0 à 0.7.7) | ✅ Testés en jeu (caméra avec remorque, GPS aussi dans SimHub) |
 | 🆕 Fin des gels sur tablettes et téléphones (version 0.7.0) | 🔶 Testé sur PC, essai sur iPhone et Samsung à venir |
-| 🧪 Caméra de recul dans le bas des écrans de rétros, sans écran en plus ([version 0.7.6, en test](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/tag/v0.7.6)) | 🧪 Version de test, essai en cours |
+| 🧪 Une seule caméra de recul, choisie avec ou sans remorque, images/s plus régulières ([version 0.7.8, en test](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/tag/v0.7.8)) | 🧪 Version de test, essai en cours |
 
 <br>
 
@@ -253,7 +253,9 @@ Oui, avec la version Premium. SimHub n'accepte qu'une adresse IP et un port : ch
 <details>
 <summary><b>Comment marche la caméra de recul ?</b></summary>
 <br>
-ETS2 dessine deux vues de plus, vers l'arrière du camion : une pour reculer sans remorque, une pour reculer avec. MirrorCast lit le rapport engagé grâce au GPS intégré : en marche arrière, la 3e tablette passe du GPS à la bonne caméra, puis y revient. Les angles se règlent dans <code>mirrorcast.json</code>, comme ceux des rétros.
+ETS2 dessine une vue de plus, vers l'arrière du camion (le jeu n'en dessine pas plus de quatre). MirrorCast la prépare avec ou sans remorque, selon votre dernière partie, et lit le rapport engagé grâce au GPS intégré : en marche arrière, la 3e tablette passe du GPS à la caméra, puis y revient. Si vous attelez ou dételez en route, la tablette vous demande de relancer le jeu pour adapter la caméra. Les angles se règlent dans <code>mirrorcast.json</code>, comme ceux des rétros.
+<br><br>
+La caméra de recul est une image 3D de plus à dessiner : si le jeu saccade, baissez un peu ses réglages graphiques (échelle de rendu à 100 %, profondeur de champ et occlusion ambiante au minimum).
 </details>
 
 <details>
