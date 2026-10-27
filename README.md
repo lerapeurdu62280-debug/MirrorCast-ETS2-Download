@@ -73,7 +73,7 @@ vue cabine, sans rien qui la gêne.
 ### 🆕 Caméra de recul et GPS
 - Une **3e tablette** affiche le **GPS** ([TruckNav](https://github.com/Rares-Muntean/TruckNav-Sim)) pendant que vous roulez.
 - Dès que vous passez la **marche arrière**, elle bascule **instantanément** sur la **caméra de recul**, puis revient au GPS : l'itinéraire est conservé.
-- Une caméra **sans remorque** et une **avec remorque** : la bonne s'affiche toute seule.
+- La caméra filme **l'arrière de la cabine**, en direct.
 - Le GPS est **intégré à MirrorCast** : rien d'autre à installer ni à ouvrir.
 
 </td>
@@ -208,7 +208,8 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 | Version gratuite et Premium (version 0.6.0) | ✅ Testées sur PC |
 | 🆕 Caméra de recul et GPS intégré (versions 0.7.0 à 0.7.7) | ✅ Testés en jeu (caméra avec remorque, GPS aussi dans SimHub) |
 | 🆕 Fin des gels sur tablettes et téléphones (version 0.7.0) | 🔶 Testé sur PC, essai sur iPhone et Samsung à venir |
-| 🧪 Une seule caméra de recul, choisie avec ou sans remorque, images/s plus régulières ([version 0.7.9, en test](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/tag/v0.7.9)) | 🧪 Version de test, essai en cours |
+| 🆕 Caméra de recul côté cabine, images/s plus régulières, nouvelle apparence (versions 0.7.8 à 0.8.1) | ✅ Testés en jeu, fluides avec des tablettes chargées |
+| 🧪 Une seule page par tablette (SimHub ouvrait parfois la page en double) ([version 0.8.2, en test](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/tag/v0.8.2)) | 🧪 Version de test, essai en cours |
 
 <br>
 
@@ -253,9 +254,15 @@ Oui, avec la version Premium. SimHub n'accepte qu'une adresse IP et un port : ch
 <details>
 <summary><b>Comment marche la caméra de recul ?</b></summary>
 <br>
-ETS2 dessine une vue de plus, vers l'arrière du camion (le jeu n'en dessine pas plus de quatre). MirrorCast la prépare avec ou sans remorque, selon votre dernière partie, et lit le rapport engagé grâce au GPS intégré : en marche arrière, la 3e tablette passe du GPS à la caméra, puis y revient. Si vous attelez ou dételez en route, la tablette vous demande de relancer le jeu pour adapter la caméra. Les angles se règlent dans <code>mirrorcast.json</code>, comme ceux des rétros.
+ETS2 dessine une vue de plus, vers l'arrière de la cabine (le jeu n'en dessine pas plus de quatre). MirrorCast lit le rapport engagé grâce au GPS intégré : en marche arrière, la 3e tablette passe du GPS à la caméra, puis y revient. Les angles se règlent dans <code>mirrorcast.json</code>, comme ceux des rétros.
 <br><br>
 La caméra de recul est une image 3D de plus à dessiner : si le jeu saccade, baissez un peu ses réglages graphiques (échelle de rendu à 100 %, profondeur de champ et occlusion ambiante au minimum).
+</details>
+
+<details>
+<summary><b>L'image saccade ou se bloque par moments sur une tablette ?</b></summary>
+<br>
+Vérifiez d'abord sa <b>batterie</b> : quand elle est faible, Android bride le processeur et l'image saccade. Laissez les tablettes <b>branchées sur secteur</b>, désactivez l'économiseur de batterie et excluez SimHub (ou Chrome) de l'optimisation de batterie dans les réglages Android. Avec SimHub, ouvrez-le <b>après</b> avoir lancé le jeu ; en cas de doute, « Forcer l'arrêt » de SimHub puis rouvrez-le.
 </details>
 
 <details>
