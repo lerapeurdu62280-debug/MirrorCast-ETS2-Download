@@ -209,7 +209,7 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 | 🆕 Caméra de recul et GPS intégré (versions 0.7.0 à 0.7.7) | ✅ Testés en jeu (caméra avec remorque, GPS aussi dans SimHub) |
 | 🆕 Fin des gels sur tablettes et téléphones (version 0.7.0) | 🔶 Testé sur PC, essai sur iPhone et Samsung à venir |
 | 🆕 Caméra de recul côté cabine, images/s plus régulières, nouvelle apparence (versions 0.7.8 à 0.8.1) | ✅ Testés en jeu, fluides avec des tablettes chargées |
-| 🧪 Une seule page par tablette (SimHub ouvrait parfois la page en double) ([version 0.8.2, en test](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/tag/v0.8.2)) | 🧪 Version de test, essai en cours |
+| 🧪 Une seule page par tablette (SimHub ouvrait parfois la page en double), tableau de bord SimHub à la place du GPS ([version 0.8.3, en test](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/tag/v0.8.3)) | 🧪 Version de test, essai en cours |
 
 <br>
 
@@ -263,6 +263,12 @@ La caméra de recul est une image 3D de plus à dessiner : si le jeu saccade, ba
 <summary><b>L'image saccade ou se bloque par moments sur une tablette ?</b></summary>
 <br>
 Vérifiez d'abord sa <b>batterie</b> : quand elle est faible, Android bride le processeur et l'image saccade. Laissez les tablettes <b>branchées sur secteur</b>, désactivez l'économiseur de batterie et excluez SimHub (ou Chrome) de l'optimisation de batterie dans les réglages Android. Avec SimHub, ouvrez-le <b>après</b> avoir lancé le jeu ; en cas de doute, « Forcer l'arrêt » de SimHub puis rouvrez-le.
+</details>
+
+<details>
+<summary><b>Peut-on afficher un tableau de bord SimHub à la place du GPS ?</b></summary>
+<br>
+Oui, depuis la version 0.8.3 (en test). Ouvrez le tableau de bord dans Chrome sur la tablette, par le serveur web de SimHub, copiez son adresse et collez-la dans <code>rearBackgroundUrl</code> (fichier <code>mirrorcast.json</code>), en remplaçant l'adresse du PC par <code>{pc}</code>. Il s'affiche sur la 3e tablette, et la caméra de recul passe par-dessus dès que vous reculez.
 </details>
 
 <details>
