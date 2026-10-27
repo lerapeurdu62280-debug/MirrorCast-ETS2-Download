@@ -8,7 +8,7 @@
 
 <br>
 
-[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.9.1-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
+[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_0.9.2-F5A524?style=for-the-badge)](https://github.com/lerapeurdu62280-debug/MirrorCast-ETS2-Download/releases/latest)
 [![Premium](https://img.shields.io/badge/✦_Premium-15_€_à_vie-F5A524?style=for-the-badge&labelColor=12141B)](#-gratuit-ou-premium-)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#%EF%B8%8F-configuration-requise)
 [![TruckersMP](https://img.shields.io/badge/TruckersMP_%2B_Solo-compatible-59C48A?style=for-the-badge)](#-fonctionnalités)
@@ -74,7 +74,8 @@ vue cabine, sans rien qui la gêne.
 - Une **3e tablette** devient un **tableau de bord** : vitesse, limitation, rapport, régime, carburant, voyants, heure du jeu et livraison en cours.
 - 🆕 **Carte et GPS** : la carte tourne avec le camion, le **trajet jusqu'à la livraison** est tracé en couleur, avec la **prochaine direction** (« Dans 800 m, prenez la sortie »), le drapeau d'arrivée, les noms des villes, les numéros de routes et les stations, aires et péages du jeu.
 - 🆕 **Radio** : lancez-la depuis la tablette, elle sort des enceintes du PC.
-- Dès que vous passez la **marche arrière**, la tablette bascule **instantanément** sur la **caméra de recul**, puis revient au tableau de bord.
+- Dès que vous passez la **marche arrière**, la tablette bascule **instantanément** sur l'**écran de recul**, puis revient au tableau de bord.
+- 🆕 **Écran de recul** : la caméra en grand avec ses lignes d'aide, et à côté votre remorque vue de l'arrière, feux de recul allumés, avec la vitesse, les voyants, le carburant et la prochaine pause.
 - Tout est **intégré à MirrorCast** : rien d'autre à installer ni à ouvrir.
 
 </td>
@@ -178,7 +179,7 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 
 | Fichier | Contenu |
 |---|---|
-| **`MirrorCast-ETS2-v0.9.1.zip`** | Version portable, carte d'Europe incluse : décompressez-la où vous voulez, il n'y a rien à installer. |
+| **`MirrorCast-ETS2-v0.9.2.zip`** | Version portable, carte d'Europe incluse : décompressez-la où vous voulez, il n'y a rien à installer. |
 
 > **Windows affiche « Windows a protégé votre ordinateur » ?** C'est normal pour un logiciel récent. Cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
 
@@ -219,6 +220,7 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 | Une seule page par tablette (SimHub ouvrait parfois la page en double) (versions 0.8.2 à 0.8.5) | ✅ Testé en jeu |
 | 🆕 Tableau de bord intégré et radio sur le PC (version 0.9.0) | ✅ Testés en jeu |
 | 🆕 Carte, trajet coloré, prochaine direction, icônes et noms (version 0.9.1) | ✅ Testés en jeu, trajet identique au GPS d'ETS2 |
+| 🆕 Écran de recul façon tableau de bord : caméra, remorque, voyants (version 0.9.2) | ✅ Maquette validée, testé sur PC |
 
 <br>
 
