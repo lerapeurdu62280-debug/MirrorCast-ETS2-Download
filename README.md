@@ -63,7 +63,7 @@ vue cabine, sans rien qui la gêne.
 - **Reconnexion automatique** en cas de coupure Wi‑Fi.
 - Plein écran, ajustement de l'image, inversion d'un toucher.
 - Compatible **SimHub** (✦ Premium) : chaque rétro a sa propre adresse IP + port.
-- 🆕 **Zoom et dézoom depuis le PC** (✦ Premium) : le curseur de chaque rétro part du milieu (vue normale), dézoome à gauche, zoome à droite ; le rétro se vise aussi vers le haut, le bas, la gauche ou la droite, en direct.
+- **Zoom et dézoom depuis le PC** (✦ Premium) : le curseur de chaque rétro part du milieu (vue normale), dézoome à gauche, zoome à droite ; le rétro se vise aussi vers le haut, le bas, la gauche ou la droite, en direct.
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ vue cabine, sans rien qui la gêne.
 <td width="50%" valign="top">
 
 ### 🚀 Plus fluide
-- 🆕 Les tablettes et téléphones **ne gèlent plus** quand on monte les images par seconde : le PC n'envoie jamais plus d'images que l'appareil n'en affiche.
+- Les tablettes et téléphones **ne gèlent plus** quand on monte les images par seconde : le PC n'envoie jamais plus d'images que l'appareil n'en affiche.
 
 </td>
 </tr>
@@ -126,13 +126,13 @@ vue cabine, sans rien qui la gêne.
 <tr>
 <td colspan="2" align="center">
 <img src="docs/screenshots/tableau-de-bord.png" alt="Tableau de bord sur la 3e tablette : carte avec le trajet, prochaine direction, vitesse, régime, carburant et radio"><br>
-<b>🆕 Le tableau de bord</b><br><sub>Carte avec le trajet jusqu'à la livraison, prochaine direction, vitesse, régime, carburant et radio. En marche arrière, la caméra de recul prend sa place.</sub>
+<b>🆕 Le tableau de bord</b><br><sub>Carte avec le trajet jusqu'à la livraison, prochaine direction, vitesse, régime, carburant et radio. En marche arrière, l'écran de recul prend sa place.</sub>
 </td>
 </tr>
 <tr>
 <td colspan="2" align="center">
 <img src="docs/screenshots/fenetre.png" alt="Fenêtre de MirrorCast sur le PC"><br>
-<b>La fenêtre du PC</b><br><sub>TruckersMP ou Solo en un clic, images par seconde de chaque rétro, tablettes connectées et QR code à scanner.</sub>
+<b>La fenêtre du PC</b><br><sub>Un QR code par tablette (rétros et caméra de recul), images par seconde, tablettes connectées, zoom de chaque vue (✦ Premium), et TruckersMP ou Solo en un clic.</sub>
 </td>
 </tr>
 </table>
@@ -185,7 +185,7 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 
 ### 🖥️ Configuration requise
 - **Windows 10 ou 11**, 64 bits, et **Euro Truck Simulator 2** sur Steam (avec ou sans **TruckersMP**).
-- Une carte graphique de jeu (testé avec une **RTX 3050**).
+- Une carte graphique de jeu (testé avec une **RTX 3050** et une **Radeon RX 6600**).
 - Deux ou trois **tablettes ou téléphones** avec un navigateur, sur le **même réseau Wi‑Fi** que le PC (5 GHz conseillé).
 - Le pilote gratuit **[Virtual Display Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases)**, qui crée les écrans invisibles où le jeu dessine les rétros (et la caméra de recul).
 
@@ -193,11 +193,11 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 
 ## 🚀 En trois gestes
 
-1. **Une seule fois :** installez Virtual Display Driver et créez **deux écrans de 400×720**, collés à gauche et à droite de votre écran dans *Paramètres → Affichage*. Le fichier `LISEZMOI.txt` vous guide.
+1. **Une seule fois :** installez Virtual Display Driver **deux fois** (un écran par pilote, sinon certains PC saccadent), puis créez **deux écrans de 400×1080** (ou 400×720 sans caméra de recul), collés à gauche et à droite de votre écran dans *Paramètres → Affichage*. Le fichier `LISEZMOI.txt` et le dossier `pilote-ecrans-virtuels` vous guident pas à pas.
 2. **Double-cliquez sur `MirrorCast.exe`**, puis cliquez sur **TruckersMP** ou **Solo** dans sa fenêtre. Au premier lancement, autorisez-le dans le pare-feu Windows.
 3. **Sur chaque tablette**, scannez le QR code du rétro (ou tapez l'adresse affichée dessous). C'est prêt.
 
-**Tableau de bord et caméra de recul (facultatif) :** passez l'écran de droite en **400×1080** (le rétro en haut, la caméra de recul en bas), relancez MirrorCast jeu fermé, puis scannez le QR code **« Caméra de recul »** avec la 3e tablette. Au premier lancement, Windows peut demander d'autoriser « TruckNavTelemetry » dans le pare-feu : acceptez.
+**Tableau de bord et caméra de recul (facultatif) :** avec les écrans en **400×1080** (le rétro en haut, la caméra de recul en bas sur l'écran de droite), scannez le QR code **« Caméra de recul »** avec la 3e tablette. Au premier lancement, Windows peut demander d'autoriser « TruckNavTelemetry » dans le pare-feu : acceptez.
 
 <br>
 
@@ -210,15 +210,15 @@ MirrorCast s'utilise **gratuitement**, sans limite de temps : vos deux rétros s
 | Mode tout-en-un (réglage et lancement automatiques d'ETS2) | ✅ Testé en conditions réelles |
 | Multijoueur TruckersMP (bouton de la fenêtre, jeu en ligne) | ✅ Testé en conditions réelles |
 | Compatibilité SimHub (adresse IP + port, plein cadre) | ✅ Testé en conditions réelles |
-| 🆕 Zoom (version 0.5.0) | ✅ Testé en conditions réelles |
-| 🆕 Dézoom et visée sans zoomer (version 0.5.1) | ✅ Testé en conditions réelles |
-| 🆕 Dézoom deux fois plus large (version 0.5.2) | ✅ Testé en conditions réelles |
+| Zoom (version 0.5.0) | ✅ Testé en conditions réelles |
+| Dézoom et visée sans zoomer (version 0.5.1) | ✅ Testé en conditions réelles |
+| Dézoom deux fois plus large (version 0.5.2) | ✅ Testé en conditions réelles |
 | Version gratuite et Premium (version 0.6.0) | ✅ Testées sur PC |
-| 🆕 Caméra de recul et GPS intégré (versions 0.7.0 à 0.7.7) | ✅ Testés en jeu (caméra avec remorque, GPS aussi dans SimHub) |
-| 🆕 Fin des gels sur tablettes et téléphones (version 0.7.0) | 🔶 Testé sur PC, essai sur iPhone et Samsung à venir |
-| 🆕 Caméra de recul côté cabine, images/s plus régulières, nouvelle apparence (versions 0.7.8 à 0.8.1) | ✅ Testés en jeu, fluides avec des tablettes chargées |
+| Caméra de recul et GPS intégré (versions 0.7.0 à 0.7.7) | ✅ Testés en jeu (caméra avec remorque, GPS aussi dans SimHub) |
+| Fin des gels sur tablettes et téléphones (version 0.7.0) | 🔶 Testé sur PC, essai sur iPhone et Samsung à venir |
+| Caméra de recul côté cabine, images/s plus régulières, nouvelle apparence (versions 0.7.8 à 0.8.1) | ✅ Testés en jeu, fluides avec des tablettes chargées |
 | Une seule page par tablette (SimHub ouvrait parfois la page en double) (versions 0.8.2 à 0.8.5) | ✅ Testé en jeu |
-| 🆕 Tableau de bord intégré et radio sur le PC (version 0.9.0) | ✅ Testés en jeu |
+| Tableau de bord intégré et radio sur le PC (version 0.9.0) | ✅ Testés en jeu |
 | 🆕 Carte, trajet coloré, prochaine direction, icônes et noms (version 0.9.1) | ✅ Testés en jeu, trajet identique au GPS d'ETS2 |
 | 🆕 Écran de recul façon tableau de bord : caméra, remorque, voyants (version 0.9.2) | ✅ Maquette validée, testé sur PC |
 
